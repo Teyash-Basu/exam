@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>CHRIST</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+        <style>
+            p{
+            text-align: left;
+            font-size: 20px;
+            margin-left: 5%;
+            }
+            #fields input{
+            width: 250px;
+            height: 25px;
+            border-radius: 5px;
+            border-width: 1px;
+            padding-top: 2px;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-left: 5%;
+            }
+            #fields input[type=text], input[type=email], input[type=txt],textarea{
+            -webkit-transition: all 0.30s ease-in-out;
+            -moz-transition: all 0.30s ease-in-out;
+            -ms-transition: all 0.30s ease-in-out;
+            -o-transition: all 0.30s ease-in-out;
+            outline: none;
+            padding: 3px 0px 3px 3px;
+            margin: 5px 1px 3px 0px;
+            border: 1px solid #DDDDDD;
+            }
+            #fields input[type=text]:focus, input[type=email]:focus, textarea:focus, input[type=txt]:focus{
+            box-shadow: 0 0 5px rgb(115, 247, 229);
+            padding: 3px 0px 3px 13px;
+            margin: 5px 1px 3px 0px;
+            border: 1px solid rgb(13, 15, 167);
+            }
+            li{
+            text-align: left;
+            font-size: 20px;
+            list-style: none;
+            margin-left: 5%;
+            }
+            #button{
+            width: 100px;
+            height: 30px;
+            background-color:  #326ba8 ;
+            color: white;
+            border-radius: 10px;
+            border-width: 1px;
+            margin-left: 5%;
+            }
+            #submitbutton{
+            width: 100px;
+            height: 30px;
+            background-color:  #326ba8 ;
+            color: white;
+            border-radius: 10px;
+            border-width: 1px;
+            margin-left: 5%;
+            }
+            #button:hover{
+            background-color: white;
+            color: #326ba8;
+            transition: 0.2s;
+            }
+        </style>
+    </head>
+    <body bgcolor="#dae1ed">
+        <form>
+            <div style="color:#435ed8;font-size:40px;
+                font-weight:bold;text-align:center; margin-bottom:-25px;">Registration Form</div>
+            <p style="text-align:center;font-size:18px; margin-top: 30px;">
+                From the department of Computer Science, Christ University
+            </p>
+            <hr>
+            <p>
+            <tr>	
+                <td><label for="fn">First Name : </label></td>
+                <td><input type="txt" name="fn" id="defaultLoginFormName" style="margin-left: 12%;" class="form-control mb-4" placeholder="First Name" onkeypress="return  lockkb(event)" maxlength="150" required></td>
+            </tr>
+            </p>
+            <p>
+            <tr>	
+                <td><label for="ln">Last Name : </label></td>
+                <td><input type="txt" name="ln" id="defaultLoginForm_Name" style="margin-left: 12%;" class="form-control mb-4" placeholder="last Name" onkeypress="return  lockkb(event)" maxlength="150" required></td>
+            </tr>
+            </p>
+            <p>
+                <tr>	
+                    <td><label for="mail">Christ Email : </label></td>
+                    <td><input type="txt" name="email" id="defaultLoginFormEmail" style="margin-left: 11%;" class="form-control mb-4" placeholder="E-mail" maxlength="150" required></td>
+                </tr>
+                </p>
+            <p>
+                <tr>	
+                    <td><label for="ln">Branch : </label></td>
+                    <td><input type="txt" name="ln" id="defaultBranchName" style="margin-left: 15%;" class="form-control mb-4" placeholder="Branch" maxlength="150" required></td>
+                </tr>
+            </p>
+            <p>
+                <tr>	
+                    <td><label for="ln">College/University Name : </label></td>
+                    <td><input type="txt" name="ln" id="defaultCollegeName" style="margin-left: 3%;" class="form-control mb-4" placeholder="College Name" maxlength="150" required></td>
+                </tr>
+            </p>
+            <p>
+                <tr>	
+                    <td><label for="ln">State : </label></td>
+                    <td><input type="txt" name="ln" id="defaultStateName" style="margin-left: 16%;" class="form-control mb-4" placeholder="State" maxlength="150" required></td>
+                </tr>
+            </p>
+            <p>
+                <tr>	
+                    <td><label for="ln">Address : </label></td>
+                    <td><input type="txt" name="ln" id="defaultStateName" style="margin-left: 14%;" class="form-control mb-4" placeholder="Address" maxlength="500" required></td>
+                </tr>
+            </p>
+            <p>
+                <tr>	
+                    <td><label for="ln">Age : </label></td>
+                    <td><input type="txt" name="ln" id="defaultAge" style="margin-left: 17%;" class="form-control mb-4" onkeypress="return  lock_kb(event) " placeholder="Age" maxlength="150" required></td>
+                </tr>
+            </p>
+            <p>
+            <tr>	
+                <td><label for="phoneno>">Phone Number : </label></td>
+                <td><input type="txt" name="phoneno" id="defaultLoginFormNumber" style="margin-left: 10%;" class="form-control mb-4" placeholder="PhoneNo." onkeypress="return  lock_kb(event) "maxlength="150" required></td>
+            </tr>
+            </p>
+            <p>
+            <tr>
+                <td><label for="username">Username : </label></td>
+                <td><input type="txt" name="username" id="user_name" style="margin-left: 13%;" class="form-control mb-4" placeholder="Username" onkeypress="return  lockkb(event)" maxlength="150" required ></td>
+            </tr>
+            </p>
+            <p>
+            <tr>
+                <td><label for="pswd">Password : </label></td>
+                <td><input type="txt" name="pswd" id="defaultLoginFormPassword" style="margin-left: 13%;" class="form-control mb-4" placeholder="Password" maxlength="150" required></td>
+            </tr>
+            </p>
+            </br>
+            
+            <tr>
+                <td>
+                    <button class="btn btn-info btn-block my-4" id="submitbutton" style="margin-left: 0.5% ; width:100px;" type="submit" onclick="fnmvalidate();lnmvalidate();mailvalidate();agevalidate();phvalidate();autocap();validatePassword(); formSubmit();" value="create">Submit</button>
+                    
+                </td>
+                <td>
+                    <button class="btn btn-info btn-block my-4" id="submitbutton" type="reset">Reset</button>
+                </td>
+            </tr>
+           
+        </form>
+        
+            <script type="text/javascript">
+                var flag = 0;
+                function lockkb(event){
+                    let user_name = event.which;
+                    if(user_name>47 && user_name<58)
+                        return false;
+                    else
+                        return true;
+                }
+                function lock_kb(event){
+                    let user_name = event.which;
+                    if(user_name>96 && user_name<121) 
+                        return false;
+                    else if(user_name>64 && user_name<89)
+                        return true;
+                    else
+                        return true;
+                }
+                function fnmvalidate(){
+                        var nm = document.getElementById("defaultLoginFormName").value;
+                        var nm2 = document.getElementById("defaultLoginFormName");
+                        var re = /^[a-zA-Z ]{1,15}$/;
+                        if (re.test(nm)) {  
+                            nm2.style.border = "green solid 3px";              
+                            return true;
+                        }
+                        else {  
+                            nm2.style.border = "red solid 3px";
+                            alert("Enter a valid name");
+                            flag = 1;
+                            return false;
+                        }
+            }
+            function lnmvalidate(){
+            var nm = document.getElementById("defaultLoginForm_Name").value;
+                        var nm2 = document.getElementById("defaultLoginForm_Name");
+                        var re = /^[a-zA-Z ]{1,15}$/;
+                        if (re.test(nm)) {      
+                            nm2.style.border = "green solid 3px";          
+                            return true;
+                        }
+                        else {  
+                            nm2.style.border = "red solid 3px";
+                            alert("Enter a valid name");
+                            flag = 1;
+                            return false;
+                        }
+            }
+                function mailvalidate(){
+          
+                    var user = document.getElementById("defaultLoginFormEmail").value;
+                    var user2 = document.getElementById("defaultLoginFormEmail");
+                    // var re = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+                    var re = /^[a-zA-Z0-9.]+@christuniversity.in$/;
+                    if (re.test(user)) {
+                        nm2.style.border = "green solid 3px";
+                        return true;
+                    }
+                    else {
+                        user2.style.border = "red solid 3px";
+                        alert("Enter a valid email");
+                        flag = 1;
+                        return false;
+        
+                    }         
+                }
+                function agevalidate(){
+                        var n = document.getElementById("defaultAge").value;
+                        var n2 = document.getElementById("defaultAge");
+                        var re = /^[1-9]{2}$/;
+                        if (re.test(n)) {   
+                            n2.style.border = "green solid 3px";             
+                            return true;
+                        }
+                        else {  
+                            n2.style.border = "red solid 3px";
+                            alert("Enter a valid Age");
+                            flag = 1;
+                            return false;
+                        }
+            }
+                function phvalidate(){
+                        var n = document.getElementById("defaultLoginFormNumber").value;
+                        var n2 = document.getElementById("defaultLoginFormNumber");
+                        var re = /^[7-9][0-9]{9}$/;
+                        if (re.test(n)) {   
+                            n2.style.border = "green solid 3px";             
+                            return true;
+                        }
+                        else {  
+                            n2.style.border = "red solid 3px";
+                            alert("Enter a valid mobile number");
+                            flag = 1;
+                            return false;
+                        }
+            }
+                        function autocap(){
+                        var nm = document.getElementById("user_name").value;
+                        nm[0].toUpperCase();
+                        const str = nm.charAt(0).toUpperCase() + nm.slice(1);
+                        console.log(str);
+                    }
+                function validatePassword() {
+                       var p = document.getElementById('defaultLoginFormPassword').value;
+                       var n2 = document.getElementById("defaultLoginFormPassword");
+                       var re = /^(?=.*[a-zA-Z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d!@#$%^&*()_+]{8,20}/;
+                       if (re.test(p)) {        
+                            n2.style.border = "green solid 3px";        
+                            return true;
+                        }
+                        else {  
+                            n2.style.border = "red solid 3px";
+                            alert("A minimum of 1 lower case letter, a minimum of 1 upper case letter, a minimum of 1 numeric character, a minimum of 1 special character, at least 1 upper case, numeric, and special character must be EMBEDDED somewhere in the middle of the password, and not just be the first or the last character of the password string");
+
+                            // alert("Enter valid Password");
+                            flag = 1;
+                        }
+
+            }
+            function formSubmit() {
+                if(flag == 0) 
+                    alert('Form submitted succesfully!');
+            }
+			</script>
+    </body>
+</html>

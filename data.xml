@@ -1,0 +1,24 @@
+?xml version="1.0" encoding="UTF-8"?>
+<Christ>
+    <Computer-Science>
+      <Stu-Name>Teyash Basu</Stu-Name>
+      <Stu-University>Christ University</Stu-University>
+      <Stu-Phone>9876541289</Stu-Phone>
+      <Stu-Email>Teyash123Basu@gmail.com</Stu-Email>  
+   </Computer-Science>
+
+    <Computer-Science>
+        <Stu-Name>Soumalya Pakrashi</Stu-Name>
+        <Stu-University>Christ University</Stu-University>
+        <Stu-Phone>9876541230</Stu-Phone>
+        <Stu-Email>PakrashiSoumalya@gmail.com</Stu-Email>  
+    </Computer-Science>
+
+    <Computer-Science>
+      <Stu-Name>Rohit Sharma</Stu-Name>
+      <Stu-University>Christ University</Stu-University>
+      <Stu-Phone>8765432987</Stu-Phone>
+      <Stu-Email>RohitS@gmail.com</Stu-Email>  
+   </Computer-Science>
+   
+</Christ>
